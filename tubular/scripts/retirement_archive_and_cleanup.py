@@ -84,10 +84,7 @@ def _upload_to_s3(config, filename):
     Upload the archive file to S3
     """
     try:
-        s3_connection = S3Connection(
-            config['s3_archive']['access_key'],
-            config['s3_archive']['secret_key']
-        )
+        s3_connection = S3Connection()
 
         datestr = datetime.datetime.now().strftime('%Y/%m/')
 

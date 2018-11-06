@@ -58,10 +58,7 @@ def fake_config_file(f, orgs=None, fetch_ecom_segment_id=False):
         'sailthru_key': 'fake_sailthru_key',
         'sailthru_secret': 'fake_sailthru_secret',
         's3_archive': {
-            'bucket_name': 'fake_test_bucket',
-            'region': 'fake_region',
-            'access_key': 'fake_access_key',
-            'secret_key': 'fake_secret_key'
+            'bucket_name': 'fake_test_bucket'
         }
     }
 
