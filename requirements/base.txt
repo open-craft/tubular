@@ -38,7 +38,7 @@ pbr==5.5.1                # via stevedore
 pyasn1-modules==0.2.8     # via google-auth
 pyasn1==0.4.8             # via pyasn1-modules, rsa
 pycparser==2.20           # via cffi
-pygithub==1.43.8          # via -r requirements/base.in
+pygithub==1.44.1          # via -r requirements/base.in
 pyjwt==1.7.1              # via edx-rest-api-client, pygithub
 pymongo==3.5.1            # via -r requirements/base.in, edx-opaque-keys
 python-dateutil==2.8.1    # via freezegun
@@ -50,7 +50,7 @@ rsa==4.6                  # via google-auth
 sailthru-client==2.3.5    # via -r requirements/base.in
 simple-salesforce==1.10.1  # via -r requirements/base.in
 simplejson==3.17.2        # via sailthru-client
-six==1.15.0               # via -r requirements/base.in, atlassian-python-api, cryptography, edx-opaque-keys, freezegun, google-api-python-client, google-auth, google-auth-httplib2, jsonlines, python-dateutil, stevedore, validators, yagocd
+six==1.15.0               # via -r requirements/base.in, atlassian-python-api, cryptography, edx-opaque-keys, freezegun, google-api-python-client, google-auth, google-auth-httplib2, jsonlines, pygithub, python-dateutil, stevedore, validators, yagocd
 slumber==0.7.1            # via edx-rest-api-client
 smmap==3.0.4              # via gitdb
 stevedore==1.32.0         # via edx-opaque-keys
